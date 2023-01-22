@@ -438,7 +438,7 @@ router.get('/', function (req, res) {
 // All HTTP methods under the /todos URL.
 router
   .route('/todos')
-  // This GET method is in charge of returnning all the todos.
+  // This GET method is in charge of returning all the todos.
   .get((req, res) => {
     res.json({ message: 'Return all todos.' });
   })
@@ -519,7 +519,7 @@ content of "Welcome to the TODO app."
 ## Create API requests using POSTMAN
 
 Postman is a very powerful tool as it can save your API request and resend it
-again and again at your will. Let's save this and create mroe API requests to
+again and again at your will. Let's save this and create more API requests to
 test the `GET` request that fetch all todos and `POST` that create a new todo.
 
 ```jsx
