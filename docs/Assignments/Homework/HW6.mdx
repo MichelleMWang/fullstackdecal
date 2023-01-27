@@ -100,6 +100,8 @@ Your first task is to implement the `/apod-for-date` GET route in `apod-server/i
 
 **Hint:** You can access the query parameters in your API handler using `req.query`.
 
+**Hint:** You can access the response body of an API response using the `data` property
+
 After you’re done with this, use Postman to test your new `/apod-for-date` API to make sure that it’s returning the correct value. For example, if you call the API with the `date` parameter set to `2020-12-25` , the response should **exactly** match the following:
 
 ```json
@@ -116,7 +118,7 @@ After you are done, open `apod-frontend/index.html` and look at the first sectio
 
 ## Task 2 - To the Moon 🚀
 
-Now that you have worked with the API, implement the `/apods-for-april` GET route in `apod-server/index.js` that returns a list of all APODs in April 2022. you must only use **ONE** call to NASA’s API to answer this question.
+Now that you have worked with the API, implement the `/apods-for-april` GET route in `apod-server/index.js` that returns a list of all APODs in April 2022. You must only use **ONE** call to NASA’s API to answer this question.
 
 **Query Parameters**
 
